@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		884EC37319BBAB400098A6C3 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884EC37219BBAB400098A6C3 /* TabBarViewController.swift */; };
+		884EC37519BBB5430098A6C3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884EC37419BBB5430098A6C3 /* HomeViewController.swift */; };
+		884EC37719BBB9070098A6C3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884EC37619BBB9070098A6C3 /* SearchViewController.swift */; };
+		884EC37919BBBAF70098A6C3 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884EC37819BBBAF70098A6C3 /* ComposeViewController.swift */; };
+		884EC37B19BBBB470098A6C3 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884EC37A19BBBB470098A6C3 /* AccountViewController.swift */; };
+		884EC37D19BBBBEC0098A6C3 /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884EC37C19BBBBEC0098A6C3 /* TrendingViewController.swift */; };
 		884EC86619B7DCEC008C4773 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884EC86519B7DCEC008C4773 /* AppDelegate.swift */; };
 		884EC86819B7DCEC008C4773 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884EC86719B7DCEC008C4773 /* ViewController.swift */; };
 		884EC86B19B7DCEC008C4773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884EC86919B7DCEC008C4773 /* Main.storyboard */; };
@@ -25,6 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		884EC37219BBAB400098A6C3 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		884EC37419BBB5430098A6C3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		884EC37619BBB9070098A6C3 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		884EC37819BBBAF70098A6C3 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		884EC37A19BBBB470098A6C3 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		884EC37C19BBBBEC0098A6C3 /* TrendingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
 		884EC86019B7DCEC008C4773 /* tumblrHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tumblrHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		884EC86419B7DCEC008C4773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		884EC86519B7DCEC008C4773 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +90,7 @@
 				884EC86519B7DCEC008C4773 /* AppDelegate.swift */,
 				884EC86719B7DCEC008C4773 /* ViewController.swift */,
 				884EC86919B7DCEC008C4773 /* Main.storyboard */,
+				887DF60A19BBE4E5005CDBF7 /* ViewControllers */,
 				884EC86C19B7DCEC008C4773 /* Images.xcassets */,
 				884EC86319B7DCEC008C4773 /* Supporting Files */,
 			);
@@ -107,6 +120,19 @@
 				884EC87719B7DCEC008C4773 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		887DF60A19BBE4E5005CDBF7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				884EC37C19BBBBEC0098A6C3 /* TrendingViewController.swift */,
+				884EC37A19BBBB470098A6C3 /* AccountViewController.swift */,
+				884EC37819BBBAF70098A6C3 /* ComposeViewController.swift */,
+				884EC37619BBB9070098A6C3 /* SearchViewController.swift */,
+				884EC37419BBB5430098A6C3 /* HomeViewController.swift */,
+				884EC37219BBAB400098A6C3 /* TabBarViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,8 +234,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				884EC37719BBB9070098A6C3 /* SearchViewController.swift in Sources */,
+				884EC37D19BBBBEC0098A6C3 /* TrendingViewController.swift in Sources */,
 				884EC86819B7DCEC008C4773 /* ViewController.swift in Sources */,
+				884EC37B19BBBB470098A6C3 /* AccountViewController.swift in Sources */,
+				884EC37319BBAB400098A6C3 /* TabBarViewController.swift in Sources */,
+				884EC37919BBBAF70098A6C3 /* ComposeViewController.swift in Sources */,
 				884EC86619B7DCEC008C4773 /* AppDelegate.swift in Sources */,
+				884EC37519BBB5430098A6C3 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +427,7 @@
 				884EC87E19B7DCEC008C4773 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		884EC87F19B7DCEC008C4773 /* Build configuration list for PBXNativeTarget "tumblrHWTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +436,7 @@
 				884EC88119B7DCEC008C4773 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
